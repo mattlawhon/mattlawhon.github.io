@@ -13,7 +13,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 2px;
 }
-
+/*
 #wrapper {
     background-color: lightblue;
 
@@ -23,21 +23,6 @@ html, body {
     height: 80%;
 
 }
-
-#header{
-    background-color: lightcyan;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-
-}
-
-
-
-
-
-
 .left, .right {
     background-color: lightblue;
 
@@ -49,17 +34,36 @@ html, body {
     justify-content: center;
 }
 
-.left {
-    align-items: center;
-    justify-content: center;
+*/
+.intro {
+    text-align: center;
+}
+#header{
+    background-color: lightcyan;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.background{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    bottom: 300px;
+    z-index: 0;
 }
 
-.menu-bar {
+
+.left {
     align-items: center;
+    position: absolute;
+    z-index: 4;
 }
+
 
 .profile-picture {
     border-radius: 50%;
+    border: 2px solid white;
 }
 
 .social-links {
