@@ -1,0 +1,51 @@
+#header{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.menubar a:visited{ 
+    text-decoration: none; 
+    color:black 
+}
+
+.floatleft{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Lexend Zetta', sans-serif;
+    text-emphasis-color: black;
+    float:left;
+}
+.floatleft a{
+    
+    border: 3px solid black;
+}
+
+.floatleft a:hover{
+    border: 3px solid grey;
+}
+
+.floatright{
+    padding-top: 20px;
+    float:right;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 23px;
+    font-size: 18px;
+}
+
+.menubar li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.menubar a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.menubar a:hover {
+    border-bottom: 4px solid grey;
+}

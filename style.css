@@ -5,47 +5,18 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-
     font-family: 'Open Sans', sans-serif;
 }
 
 .name {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 2px;
 }
-/*
-#wrapper {
-    background-color: lightblue;
 
-    max-width: 80%;
-    display: flex;
-    flex-direction: row;
-    height: 80%;
-
-}
-.left, .right {
-    background-color: lightblue;
-
-    margin: 5px;
-    max-width: 50%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-*/
 .intro, .right {
     text-align: center;
 }
 
-#header{
-    background-color: lightcyan;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-}
 .background{
     position: absolute;
     left: 0px;
@@ -54,13 +25,11 @@ html, body {
     z-index: 0;
 }
 
-
 .left {
     align-items: center;
     position: absolute;
     z-index: 4;
 }
-
 
 .profile-picture {
     border-radius: 50%;
