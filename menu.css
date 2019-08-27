@@ -8,6 +8,10 @@
     text-decoration: none; 
     color:black 
 }
+.menubar a:link{
+    text-decoration: none; 
+    color:black 
+}
 
 .floatleft {
     list-style: none;
