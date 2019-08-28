@@ -1,0 +1,114 @@
+
+.row {
+    position: absolute;
+    width: 100%;
+    height: 88%;
+    top:12%; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 33.3333%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 1000px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+.hobby {
+    position: absolute;
+    left: 0px;
+    top: 95px;
+    width: 100%;
+    height: 88%;
+    
+    display: inline-block;
+}
+
+.hobbytext {
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+}
+
+.hobbyname {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+.hobbyimage {
+    z-index: 2;
+    height: 100%;
+}
+
+.hobby1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50%;
+    width: 33.3333%;
+}
+.hobby2 {
+    position: absolute;
+    left: 33.33333%;
+    top: 0px;
+    height: 50%;
+    width: 50%;
+}
+.hobby3 {
+    position: absolute;
+    left: 66.66666%;
+    top: 0px;
+    height: 50%;
+    width: 100%;
+}
+.hobby4 {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    height: 50%;
+    width: 33.3333%;
+}
+.hobby5 {
+    position: absolute;
+    left: 33.33333%;
+    top: 50%;
+    height: 50%;
+    width: 20%;
+}
+.hobby6 {
+    position: absolute;
+    left: 66.66666%;
+    top: 50%;
+    height: 50%;
+    width: 100%;
+}
+

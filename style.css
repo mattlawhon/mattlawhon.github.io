@@ -23,14 +23,6 @@ html, body {
     text-align: center;
 }
 
-.background {
-    position: absolute;
-    left: 0px;
-    top: 60px;
-    bottom: 300px;
-    z-index: 0;
-}
-
 .left {
     align-items: center;
     position: absolute;
