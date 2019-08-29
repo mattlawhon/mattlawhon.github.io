@@ -56,3 +56,8 @@ html, body {
 body {
     background: rgba(185, 217, 235, 1)
 }
+
+.about {
+    text-align: center;
+    max-width: 60%;
+}
