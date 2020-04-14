@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8"/>
     <title>Projects</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="menu.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Merriweather" rel="stylesheet">
+    <script src="scripts/p5.js"></script>
   </head>
-  
+
+  <div id="header">
+    <ul class="menubar"> 
+      <div class="floatleft">
+        <li><a href="index.html">ML</a></li>
+      </div>
+      <div class="floatright">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="bin/resume.pdf">Resume</a></li>
+      </div>
+    </ul>
+  </div>
+
   <body>
-    <div id="header">
-      <ul class="menubar"> 
-        <div class="floatleft">
-          <li><a href="index.html">ML</a></li>
-        </div>
-        <div class="floatright">
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="hobbies.html">Hobbies</a></li>
-          <li><a href="bin/resume.pdf">Resume</a></li>
-        </div>
-      </ul>
+    <div class="projects">
+      
+      <div class = "projectTitle">Data Visualization</div>
+      <div style="font-style:italic">All projects completed in Intro to Data 
+        Visualization (COMS W4995) with Professor Agnes Chang</div>
+
+      <div class = "projectSubTitle">Missing Migrants</div>
+      https://observablehq.com/@ar3607/missing-migrants/2
+      
+      <div class = "projectSubTitle">Bob Ross</div>
+      https://observablehq.com/@mwl2131/elements-of-bob-ross-paintings/5
+      
+      <div class = "projectSubTitle">Reimagine the clock face</div>
+      <div id="sketch-holder"><script src="scripts/sketch.js"></script></div>
+      <div class="projectText">
+      This was my first javascript design. Using the p5.js library, this design
+      switches the traditional channel for reading a clock, the angles of the clock 
+      hands, to the radii of the three circles representing hour, minute and second. 
+      Concentric circles mark every hour and every five minutes and seconds to
+      facilitate quick reading.
+
+      </div>
+
+      <!--add an alternate script which rotates the image along y=-x for thin display--> 
+      
+      <div class = "projectTitle">Climate Research</div>
+
     </div>
 
-    
-
-    <h3 class="about">I am a Columbia Student studying Mathematics, Statistics, and Computer Science.
-      I am passionate about the intersection and application of these fields to solving problems.
-
-    </h3>
   </body>
 </html>

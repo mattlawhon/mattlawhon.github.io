@@ -1,10 +1,6 @@
 html, body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    display:grid;
+    top: 0px;
     font-family: 'Merriweather', sans-serif;
 }
 
@@ -54,10 +50,29 @@ html, body {
 }
 
 body {
-    background: rgba(185, 217, 235, 1)
+    background: whitesmoke;
 }
 
-.about {
+/*rgba(185, 217, 235, 1)*/
+
+.projects {
+    display: grid;
+    width: 60%;
+    min-width: 800px;
+    
     text-align: center;
-    max-width: 60%;
+    
+    row-gap: 10px;
+    margin: auto;
+    margin-top: 100px;
 }
+.projectTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.projectSubTitle {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
