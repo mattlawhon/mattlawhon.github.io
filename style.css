@@ -55,24 +55,3 @@ body {
 
 /*rgba(185, 217, 235, 1)*/
 
-.projects {
-    display: grid;
-    width: 60%;
-    min-width: 800px;
-    
-    text-align: center;
-    
-    row-gap: 10px;
-    margin: auto;
-    margin-top: 100px;
-}
-.projectTitle {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-}
-.projectSubTitle {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 5px;
-    font-size: 25px;
-}
-

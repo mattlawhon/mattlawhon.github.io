@@ -5,6 +5,7 @@
     <title>Projects</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Merriweather" rel="stylesheet">
     <script src="scripts/p5.js"></script>
   </head>
@@ -45,10 +46,80 @@
       facilitate quick reading.
 
       </div>
-
-      <!--add an alternate script which rotates the image along y=-x for thin display--> 
+      <hr style="width:300px">
       
       <div class = "projectTitle">Climate Research</div>
+      <div style="font-style:italic">Research completed with Indrani Das and Xiaojun Yuan
+      of the Polar Geophysics Group at the Columbia University Lamont-Doherty Earth Observatory
+      and presented at the 2018 American Geophysical Union Conference </div>
+
+      <div class = "projectSubTitle">Introduction</div>
+      <div class="projectText">
+      A Katabatic wind is a gravity driven wind. These are the dominant surface wind on 
+      Anarctica outside of the summer months, and are resposible for many features of interest to
+      climate scientists like wind-scoured blue ice formations, polynya, overturning ocean 
+      circulation, and local-scale variations in ice accumulation rates. Katabatic 
+      winds are quite volatile, often picking up 40+ mph in the span of minutes and reaching 
+      speeds of almost 200 mph in some cases. Unsurprisingly, they are difficult to predict
+      and insufficiently accounted for in most climate models. The purpose of this project was
+      to investigate the extent to which machine learning and data visualization methods could be 
+      applied to better understand the insufficiencies of climate models to accounting for katabatic
+      winds. </div>
+
+
+      <div class = "projectSubTitle">Abstract</div>
+      <div class="projectText">
+      Katabatic wind patterns are controlled by temperature and pressure gradients and 
+      have high diurnal and seasonal variability. In this project, data from 11 Automatic 
+      Weather Stations (AWS) and optimally structured neural networks were used to explore 
+      the accuracy of near-surface wind data from the European Centre for Medium-Range 
+      Weather Forecasts (ECMWF), a dataset with many biases. Using the controlling 
+      mechanisms of the Katabatic winds as inputs, optimally structured neural networks 
+      were trained and used to fill in the sizable data gaps in the AWS wind speed 
+      measurements. Our results show from 1985 to 2018 the ECMWF wind speed correlates 
+      to the uncleaned AWS wind speed data with r = 0.61, to the cleaned AWS wind speed 
+      data with r = 0.74, and to the cleaned and neural network filled-in AWS wind speed 
+      data with r = 0.69. These preliminary results demonstrate the efficacy of reducing 
+      biases in climate datasets with artificial neural. This is particularly relevant to
+      to the many regional climate models that use ECMWF as boundary conditions. 
+      </div>
+
+      <div class = "projectSubTitle">Preliminary Results</div>
+      <img class="projectIm" src="bin/ANN Antarctica/Marilyn.png" width="900"/>
+      <div class="projectText">
+      At Marilyn station, close to the Transantarctic range and subject to violent katabatic 
+      winds, the ECMWF predicts the overall shape of prevalent windspeed inadequately, missing 
+      numerous peaks, and predicting peaks 10-15° off their actual direction. Further, it is 
+      clear that these inaccuracies are most prevelent in the Antarctic winter, when high speed 
+      katabatic winds form.
+      </div>
+
+      <div class = "projectSubTitle">Neural Network Results</div>
+      <img class="projectIm" src="bin/ANN Antarctica/Marg Unfilled.png" width="900"/>
+      <img class="projectIm" src="bin/ANN Antarctica/Marg Filled.png" width="900"/>
+      <div class="projectText">
+      These graphs capture a sample of the results of our artificial neural network approach. 
+      Top is the graph of windspeed values at Margaret between 2008-2011, as they are 
+      in the raw data. Bottom is the graph of windspeed values at Margaret between 
+      2008-2011, after the data gaps have been filled in using our artificial network. 
+      As best seen from the continuity of the line tracking difference between AWS and ECMWF,
+      in the bottom plot we filled in the numerous gaps in our data, and have a much better
+      picture of the wind speed than in the top plot. This graph is designed to highlight 
+      the seasonal pattern in the difference of the AWS and the ECMWF. Outside of the summer
+      months, the ECMWF consistently overestimates windspeed at Margaret AWS station.
+      </div>
+
+      <div class = "projectSubTitle">Final Results</div>
+      <img class="projectIm" src="bin/ANN Antarctica/Map.png" width="700"/>
+      <div class="projectText">
+      This map captures the overall accuracy of the ECMWF on the Ross Ice Shelf. In 
+      regions near the Transantarctic Mountain Range, the accuracy of wind speed prediction 
+      is lowest, with the ECMWF predicting actual windspeed at correlation coefficients 
+      nearing 0.5. This is largely due to the presence of intense Katabic winds in this region.
+      This models accuracy improves going to the middle of the region. Towards the 
+      coast and McMurdo station, the accuracy of wind speed prediction is highest, with the 
+      ECMWF predicting actual windspeed at correlation coefficients nearing 0.8.
+      </div>
 
     </div>
 

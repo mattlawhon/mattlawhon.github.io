@@ -1,0 +1,32 @@
+.projects {
+    display: grid;
+    width: 60%;
+    min-width: 900px;
+    
+    text-align: center;
+    
+    row-gap: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+.projectTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.projectSubTitle {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.projectText {
+    margin-bottom: 15px;
+}
+.projectIm {
+    margin: auto;
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
