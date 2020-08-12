@@ -1,57 +1,47 @@
 html, body {
-    display:grid;
+    display: grid;
     top: 0px;
     font-family: 'Merriweather', sans-serif;
-}
-
-.name {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 2px;
-}
-
-.subtitle, .bio, .social-links {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-}
-
-.intro, .right {
-    text-align: center;
-}
-
-.left {
-    align-items: center;
-    position: absolute;
-    z-index: 4;
-}
-
-.profile-picture {
-    border-radius: 50%;
-}
-
-.social-links {
-    list-style: none;
-    padding-left: 0px;
-    font-size: 18px;
-}
-
-.social-links li {
-    display: inline-block;
-    margin-right: 8px;
-}
-
-.social-links a {
-    text-decoration: none;
-    padding: 4px;
-}
-
-.social-links a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-body {
     background: whitesmoke;
 }
 
-/*rgba(185, 217, 235, 1)*/
+.intro {
+    display: grid;
+
+    grid-template-columns: 10% 4fr 1fr 4fr 10%;
+    
+    margin: auto;
+    margin-top: 10%;
+}
+
+.prof {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.bio {
+    grid-column: 2;
+    grid-row: 1;
+}
+.introbody {
+
+    list-style-type: "- ";
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+
+
+    line-height: 150%;
+}
+
+.introbody a:visited {
+    text-decoration: none; 
+    color:  rgba(46, 116, 181, 1);
+}
+.introbody a:link{
+    text-decoration: none; 
+    color:  rgba(46, 116, 181, 1);
+}
 
